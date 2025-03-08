@@ -1,0 +1,19 @@
+services:
+  notebook:
+    build: .
+    image: uoc-22.403
+    container_name: uoc-22.403
+    volumes:
+      - ./work:/app/work
+    command: sh -c "conda run -n uoc \
+      jupyter lab \
+        --ip=* \
+        --port 8888 \
+        --no-browser \
+        --allow-root \
+        --notebook-dir=/app/work \
+        --preferred-dir=/app/work \
+        --NotebookApp.token=''"
+    ports:
+      - 8888:8888
+    restart: always

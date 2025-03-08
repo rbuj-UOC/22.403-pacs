@@ -1,0 +1,8 @@
+docker-compose.yaml
+environment.yml
+img/
+README.md
+.conda/
+.git/
+.gitignore
+.vscode/
