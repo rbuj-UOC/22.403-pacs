@@ -11,9 +11,11 @@ dependencies:
   - jupyterlab
   - matplotlib
   - numpy
+  - openpyxl
   - pandas
   - pip
   - pycodestyle
   - python=3.11
   - pip:
       - pycodestyle-magic
+      - python-docx
