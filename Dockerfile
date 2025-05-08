@@ -10,6 +10,7 @@ RUN apt-get update -q && \
     apt-get upgrade -y && \
     apt-get install -q -y --no-install-recommends \
         locales-all \
+        build-essential \
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*

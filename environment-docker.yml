@@ -15,7 +15,8 @@ dependencies:
   - pandas
   - pip
   - pycodestyle
-  - python=3.11
+  - python=3.13
   - pip:
+      - line-profiler
       - pycodestyle-magic
       - python-docx
