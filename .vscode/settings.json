@@ -9,5 +9,11 @@
         "editor.defaultFormatter": "ms-python.autopep8",
         "editor.formatOnSave": true
     },
-    "python.terminal.activateEnvironment": true
+    "python.terminal.activateEnvironment": true,
+    "cSpell.words": [
+        "initargs",
+        "xlabel",
+        "ylabel",
+        "ylim"
+    ]
 }
